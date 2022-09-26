@@ -47,7 +47,7 @@ jobpool 致力于解决目前大部分项目中的缺陷：
 
 源码下载和编译步骤如下
 ```bash
-git clone https://github.com/jobpool/jobpool.git
+git clone https://github.com/yunlizhihui/jobpool.git
 go mod download
 go mod tidy
 go mod vendor
@@ -132,7 +132,7 @@ server运行将会把数据持久化到配置文件中的data_dir目录下，后
 
 ## Contact
 
-- Bugs: [issues](https://github.com/jobpool/jobpool/issues)
+- Bugs: [issues](https://github.com/yunlizhihui/jobpool/issues)
 
 ### License
 
