@@ -1,0 +1,19 @@
+{
+  "name": "node-1",
+  "data_dir": "/tmp/jobpool/server",
+  "bind_addr": "0.0.0.0",
+  "server": {
+    "dpa": {
+      "host": "localhost:48681"
+    },
+    "enabled": true,
+    "bootstrap_expect": 3,
+    "server_join": {
+      "start_join": ["127.0.0.1:4648", "127.0.0.1:5648", "127.0.0.1:6648"]
+    },
+    "num_schedulers": 1
+  },
+  "client": {
+    "enabled": false
+  }
+}

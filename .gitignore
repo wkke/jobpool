@@ -1,0 +1,74 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+*.log
+/*.hcl
+.DS_Store
+Thumbs.db
+.idea
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+/tags
+/bin/
+/pkg/
+.vagrant
+*.old
+*.attr
+
+# Test file
+exit-code
+
+# Don't commit uncompressed state test files
+client/state/testdata/*.db
+
+# init outputs
+example.jobpool
+spec.hcl
+volume.hcl
+
+jobpool_linux_amd64
+jobpool_darwin_amd64
+TODO.md
+codecgen-*.generated.go
+**/structs.generated.go
+GNUMakefile.local
+
+# Terraform state and locking files.
+.terraform
+*.tfstate*
+.terraform.lock.hcl
+
+rkt-*
+
+./idea
+*.iml
+
+.ignore
+
+# generated routes file
+command/agent/bindata_assetfs.go
+
+# auto-generated cert file for Terraform/Azure
+azure-hashistack.pem
+
+# local terraform overrides
+*.auto.tfvars
+jobpool
+/vendor
+/raft
+/serf
+node-id

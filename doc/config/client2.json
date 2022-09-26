@@ -1,0 +1,17 @@
+{
+  "name": "client-2",
+  "data_dir": "/tmp/jobpool/client2",
+  "bind_addr": "0.0.0.0",
+  "log_level": "debug",
+  "ports": {
+    "http": 11646,
+    "rpc": 11647,
+    "serf": 11648
+  },
+  "client": {
+    "enabled": true,
+    "server_join": {
+      "retry_join": ["127.0.0.1:4647"]
+    }
+  }
+}

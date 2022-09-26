@@ -1,0 +1,17 @@
+{
+  "name2": "node-server",
+  "data_dir": "/tmp/jobpool/single",
+  "enable_host_address": true,
+  "advertise_format": "%s:%d",
+  "bind_addr": "0.0.0.0",
+  "log_level": "debug",
+  "log_file": "/tmp/jobpool/single/logs/stdout.log",
+  "server": {
+    "enabled": true,
+    "bootstrap_expect": 1,
+    "num_schedulers": 1
+  },
+  "client": {
+    "enabled": false
+  }
+}
